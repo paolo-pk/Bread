@@ -1,0 +1,14 @@
+# Losowo wybiera kto idzie po pieczywo
+
+import random
+
+input("Kto idzie po pieczywo, Iza czy Paweł? Naciśnij Enter to się przekonasz:\n ")
+
+pieczywo = random.randint(1, 2)
+
+if pieczywo == 1:
+    print("IZA")
+else:
+    print("PAWEŁ")
+
+input("\n\nAby zakończyć program, naciśnij klawisz Enter.")
